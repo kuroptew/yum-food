@@ -1,0 +1,5 @@
+node = "22.14.0"
+pnpm = "10.13.1"
+
+[settings]
+auto-install = true
