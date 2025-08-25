@@ -1,5 +1,6 @@
 import { resolve } from "node:path";
 
+import svgUse from "@svg-use/vite";
 import { tanstackRouter } from "@tanstack/router-plugin/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
@@ -11,6 +12,7 @@ export default defineConfig({
 			target: "react",
 			autoCodeSplitting: true,
 		}),
+		svgUse(),
 		react(),
 	],
 	// test: {

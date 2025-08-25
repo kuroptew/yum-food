@@ -5,7 +5,10 @@
     "jsx": "react-jsx",
     "module": "ESNext",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "types": ["vite/client"],
+    "types": [
+      "vite/client",
+      "@svg-use/vite/client",
+    ],
 
     /* Bundler mode */
     "moduleResolution": "bundler",

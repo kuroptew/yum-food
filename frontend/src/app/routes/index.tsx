@@ -9,6 +9,7 @@ export const Route = createFileRoute("/")({
 function App() {
 	return (
 		<div className="App">
+      Main Page
 			<Link to="/about">About</Link>
 		</div>
 	);
